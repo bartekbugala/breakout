@@ -1,0 +1,9 @@
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  & a {
+    text-decoration: none;
+    color: blue;
+  }
+}
