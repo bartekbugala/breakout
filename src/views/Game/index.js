@@ -1,5 +1,12 @@
-const Game = ({}) => {
-  return <h1>Game</h1>;
+import Breakout from '../../components/Breakout';
+
+const Game = ({ children }) => {
+  return (
+    <>
+      <h1>Breakout</h1>
+      <Breakout />
+    </>
+  );
 };
 
 export default Game;
